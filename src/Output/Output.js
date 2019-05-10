@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+
 
 
 
@@ -13,9 +13,8 @@ const output = () => {
             </ul>
                     <p>
 
-            I am a Musician}, who had first started with music, playing the trumpet.
-            Then the Guitar in jazz band, as well the as the Bass Guitar during the same period.
-            This application will be tentatively titled "HealthTracker". 
+            
+            This application was to be tentatively titled "HealthTracker". Later in development it was changed to "FastChart" which reflected it's new aim towards front-facing healthcare professionals.
             This application will be used to download the user's FHIR records from supported healthcare institutions. 
             The system then updates the records in the background on a scheduled basis. 
             The user will have to consent to give out clinical data however, test data will be used in preliminary testing. 
