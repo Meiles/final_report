@@ -1,9 +1,16 @@
 import React from 'react';
+import './App.css';
+
 
 
 const output = () => {
     return (
             <div>
+            <h1>FastChart</h1>
+            <ul>
+                <li>Miles Cruz</li>
+                <li>Spring 2019</li>
+            </ul>
                     <p>
 
             I am a Musician}, who had first started with music, playing the trumpet.
