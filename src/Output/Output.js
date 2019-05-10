@@ -1,11 +1,12 @@
 import React from 'react';
+import './Output.css';
 
 
 
 
-const output = () => {
+const output = (props) => {
     return (
-            <div>
+            <div className="Output" onchange={props.changed}>
             <h1>FastChart</h1>
             <ul>
                 <li>Miles Cruz</li>
@@ -24,6 +25,7 @@ const output = () => {
             The structure of the presentation will be orally based, with a simulation of the app running to show the application when in use on the iOS framework. 
             I will put together a short video showing a short synopsis of how the app was made as well.
         </p>
+
             </div>
 
         )
