@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/final_report/static/css/main.7a40fc61.chunk.css",
-    "main.js": "/final_report/static/js/main.6381ab98.chunk.js",
-    "main.js.map": "/final_report/static/js/main.6381ab98.chunk.js.map",
+    "main.css": "/final_report/static/css/main.fd1db0c3.chunk.css",
+    "main.js": "/final_report/static/js/main.9021309f.chunk.js",
+    "main.js.map": "/final_report/static/js/main.9021309f.chunk.js.map",
     "runtime~main.js": "/final_report/static/js/runtime~main.35925046.js",
     "runtime~main.js.map": "/final_report/static/js/runtime~main.35925046.js.map",
-    "static/js/2.6efc73d3.chunk.js": "/final_report/static/js/2.6efc73d3.chunk.js",
-    "static/js/2.6efc73d3.chunk.js.map": "/final_report/static/js/2.6efc73d3.chunk.js.map",
+    "static/js/2.72c0c437.chunk.js": "/final_report/static/js/2.72c0c437.chunk.js",
+    "static/js/2.72c0c437.chunk.js.map": "/final_report/static/js/2.72c0c437.chunk.js.map",
     "index.html": "/final_report/index.html",
-    "precache-manifest.ac21a9f54dbdda0fae1582bd8c18b104.js": "/final_report/precache-manifest.ac21a9f54dbdda0fae1582bd8c18b104.js",
+    "precache-manifest.7b6c164fbdc870b971a4f4a58147d999.js": "/final_report/precache-manifest.7b6c164fbdc870b971a4f4a58147d999.js",
     "service-worker.js": "/final_report/service-worker.js",
-    "static/css/main.7a40fc61.chunk.css.map": "/final_report/static/css/main.7a40fc61.chunk.css.map",
+    "static/css/main.fd1db0c3.chunk.css.map": "/final_report/static/css/main.fd1db0c3.chunk.css.map",
+    "static/media/ConnectView.png": "/final_report/static/media/ConnectView.b85813fe.png",
+    "static/media/EndpointsView.png": "/final_report/static/media/EndpointsView.f5a6b0a5.png",
+    "static/media/PatientSingleView.png": "/final_report/static/media/PatientSingleView.23e5d60a.png",
+    "static/media/PatientViewProp.png": "/final_report/static/media/PatientViewProp.978393f7.png",
+    "static/media/PatientsView.png": "/final_report/static/media/PatientsView.ce65885b.png",
     "static/media/TXWES.png": "/final_report/static/media/TXWES.22482b85.png",
     "static/media/logo.svg": "/final_report/static/media/logo.5d5d9eef.svg"
   }
