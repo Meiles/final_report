@@ -20,7 +20,7 @@ const design = (props) => {
                     This app was made in xcode in the mojave macosx environment.
                     The source used for the application is the Swift programming language created by Apple.
                     I also used online creation tools
-                    <a className="App-link" href="https://appicon.co/" target="_blank" rel="noopener noreferrer">appicon.co</a>
+                    <a className="App-link" href="https://appicon.co/" target="_blank" rel="noopener noreferrer"> appicon.co </a>
                     to create my app.
                 </p>
 
