@@ -5,12 +5,14 @@ import endpointsview from './EndpointsView.png';
 import patientsingleview from './PatientSingleView.png';
 import patientview from './PatientsView.png';
 import patientviewprop from './PatientViewProp.png';
+import appscreenview from './appscreenview.png';
 
 
 
 const design = (props) => {
     return (
             <div className="design" onchange={props.changed}>
+                <img src={appscreenview} width={150} height={300} mode='fit'/>
                 <img src={endpointsview} width={200} height={400} mode='fit'/>
                 <img src={connectview} width={200} height={400} mode='fit'/>
                 <img src={patientview} width={200} height={400} mode='fit'/>
@@ -21,7 +23,7 @@ const design = (props) => {
                     The source used for the application is the Swift programming language created by Apple.
                     I also used online creation tools
                     <a className="App-link" href="https://appicon.co/" target="_blank" rel="noopener noreferrer"> appicon.co </a>
-                    to create my app.
+                    to create my app icons which gave my application a more individual look.
                 </p>
 
             </div>
