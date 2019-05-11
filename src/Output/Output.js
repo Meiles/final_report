@@ -16,7 +16,7 @@ const output = (props) => {
 
             
             This application was to be tentatively titled "HealthTracker". Later in development it was changed to "FastChart" which reflected it's new aim towards front-facing healthcare professionals.
-            This application will be used to download the user's FHIR records from supported healthcare institutions. 
+            This application will be used to download the user's FHIR® records from supported healthcare institutions. 
             The system then updates the records in the background on a scheduled basis. 
             The user will have to consent to give out clinical data however, test data will be used in preliminary testing. 
             With more updates, the possibility of integrating an iWatch app to compare real-time data pulled from the FHIR records could be used to better track a person's state based on their medical history. 

@@ -29,7 +29,8 @@ toggleObjectsHandler = () => {
       borderRadius: 5,
       backgroundColor: 'blue',
       font: 'inherit',
-      border: '3x solid gold',
+      fontColor: 'yellow',
+      border: '3x solid yellow',
       padding: '4px'
 
     };
