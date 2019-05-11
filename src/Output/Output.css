@@ -6,3 +6,31 @@
     padding: 4px;
     text-align: center;
 }
+
+.introduction{
+        width: 60%;
+    margin: auto;
+    border: 1 px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 4px;
+    text-align: center;
+}
+
+.design{
+        width: 60%;
+    margin: auto;
+    border: 1 px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 4px;
+    text-align: center;
+}
+
+
+.conclusion{
+    width: 60%;
+    margin: auto;
+    border: 1 px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding: 4px;
+    text-align: center;
+}

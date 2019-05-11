@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 import Output from './Output/Output.js';
+import Introduction from './Output/Introduction.js';
+import Design from './Output/DesignImplementation.js';
+import Conclusion from './Output/Conclusion.js'
 import logo from './logo.svg';
 import txwes from './TXWES.png';
 import './App.css';
@@ -14,7 +17,7 @@ class App extends Component {
 
 
 
-toggleObjectHandler = () =>{
+toggleObjectsHandler = () => {
   const doesShow = this.state.showObjects;
   this.setState({showObjects: !doesShow});
 }
@@ -32,18 +35,6 @@ toggleObjectHandler = () =>{
     };
 
 
-    let objects = null;
-
-    if (this.state.showObjects) {
-      objects = (
-        <div>
-        {this.state.objects.map((object) => {
-            return <Output/>
-          }
-        )}
-        </div>
-        );
-    }
 
 
   return (
@@ -53,19 +44,45 @@ toggleObjectHandler = () =>{
         <br/>
         <br/>
         <br/>
+
         <button
         style={style} 
-        onClick={this.toggleObjectsHandler}>Summary</button>
-        {objects}
+        onClick={this.toggleObjectsHandler}>Summary</button> { 
+          this.state.showObjects === true ? 
+          <div>
+        <Output/>
+          </div> : null
+        }
+
         <button
         style={style} 
-        onClick={this.toggleObjectsHandler}>Introduction</button>
+        onClick={this.toggleObjectsHandler}>Introduction</button> { 
+          this.state.showObjects === true ? 
+          <div>
+        <Introduction/>
+          </div> : null
+        }
+
         <button
         style={style} 
-        onClick={this.toggleObjectsHandler}>Design and Implementation</button>
+        onClick={this.toggleObjectsHandler}>Design and Implementation</button> { 
+          this.state.showObjects === true ? 
+          <div>
+        <Design/>
+          </div> : null
+        }
+
         <button
         style={style} 
-        onClick={this.toggleObjectsHandler}>Testing, Conclusions, and Future Work</button>
+        onClick={this.toggleObjectsHandler}>Testing, Conclusions, and Future Work</button> { 
+          this.state.showObjects === true ? 
+          <div>
+        <Conclusion/>
+          </div> : null
+        }
+
+
+
         <a
           className="App-link"
           href="https://meiles.github.io/"
