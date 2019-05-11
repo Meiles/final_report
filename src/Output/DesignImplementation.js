@@ -12,7 +12,7 @@ import appscreenview from './appscreenview.png';
 const design = (props) => {
     return (
             <div className="design" onchange={props.changed}>
-                <img src={appscreenview} width={150} height={300} mode='fit'/>
+                <img src={appscreenview} width={200} height={400} mode='fit'/>
                 <img src={endpointsview} width={200} height={400} mode='fit'/>
                 <img src={connectview} width={200} height={400} mode='fit'/>
                 <img src={patientview} width={200} height={400} mode='fit'/>

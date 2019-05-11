@@ -10,7 +10,8 @@ const introduction = (props) => {
         either the Apple iWatch or newer models of fitbit. As I learned more about the different ways to retrieve healthcare data,
         I found that there were many different ways to perform the retrieval of medical data already on the market.
         However, I also saw that because there were so many different ways to connect to Electronic Health Resources
-        and many ways that couldn't connect to each other. While doing research on potential solutions, I found the <a className="App-link" href="https://www.hl7.org/fhir/overview.html" target="_blank" rel="noopener noreferrer"> HL7® website </a>which pointed me towards
+        and many ways that couldn't connect to each other. There were also certain worries that I had, mostly the fear of 
+        individuals misdiagnosing themselves as that could be a major issue by itself. While doing research on potential solutions, I found the <a className="App-link" href="https://www.hl7.org/fhir/overview.html" target="_blank" rel="noopener noreferrer"> HL7® website </a>which pointed me towards
         the FHIR® or Fast Healthcare Interoperability Resources. This framework allows a developer to use their standardized resources
         to create an application using predefined classes. This cuts down on development time once a developer knows the various classes
         available to them through FHIR®.
